@@ -1,0 +1,111 @@
+/* Full-screen centered layout */
+.homepage-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f5f7ff, #e0f0ff);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Content card */
+.homepage-content {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 20px;
+  padding: 2rem;
+  max-width: 700px;
+  margin: 3rem auto;
+  text-align: center;
+  color: #333;
+}
+
+/* Title with logo centered */
+.homepage-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #2c2c70;
+  margin-bottom: 16px;
+}
+
+.homepage-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+/* Tagline and subtext */
+.homepage-tagline {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #3f3f3f;
+  margin-bottom: 8px;
+}
+
+.homepage-subtext {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Buttons layout */
+.homepage-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.homepage-buttons button {
+  background-color: #7e6de4;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(126, 109, 228, 0.3);
+}
+
+.homepage-buttons button:hover {
+  background-color: #9778f2;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 25px rgba(126, 109, 228, 0.7);
+}
+
+
+.homepage-buttons button:hover {
+  background-color: #5d64e2;
+}
+.title-with-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Aligns logo and title to the left */
+  gap: 15px;
+  width: 100%;
+}
+
+.logo-left {
+  width: 100px;
+  height: 100px;
+}
+
+.title-text {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #2c2c70;
+  margin: 0;
+}
+
+.highlight {
+  color: #7c83fd;
+}

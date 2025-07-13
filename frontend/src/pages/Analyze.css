@@ -1,0 +1,64 @@
+.analyze-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* or center */
+  min-height: 100vh;
+  background-color: #f5f7fb;
+}
+
+
+.analyze-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.file-input {
+  margin: 0 auto 20px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 80%;
+  max-width: 400px;
+  background: #fff;
+}
+
+.preview-section,
+.summary-section {
+  margin-top: 20px;
+  background-color: #f9f9fe;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.audio-controls {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.audio-controls button {
+  padding: 10px 16px;
+  background-color: #7c83fd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.audio-controls button:hover {
+  background-color: #5e63e6;
+}

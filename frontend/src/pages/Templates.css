@@ -1,0 +1,21 @@
+.templates-page {
+  padding: 2rem;
+}
+
+.templates-page h2 {
+  margin-bottom: 1rem;
+}
+
+.templates-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.templates-page li {
+  margin-bottom: 1rem;
+}
+
+.templates-page a {
+  color: #646cff;
+  text-decoration: underline;
+}
